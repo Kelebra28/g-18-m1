@@ -1,0 +1,37 @@
+
+/* Selector de tipo etiqueda : solo se pone el nombre  */
+
+body {
+    background-color: #cfaeda;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: green;
+    font-size: 20px;
+}
+
+/*  Selector de tipo clase: se pone un punto primero(.nombre) */
+
+.gold {
+    color: gold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue {
+    color: blue;
+}
+
+/*  Selector de tipo id: se pone un # antes (#nombre)  --> el id no se puede repetir */
+
+#perrito {
+    width: 200px;
+}
+
+#perrrito2 {
+    width: 400px;
+}
