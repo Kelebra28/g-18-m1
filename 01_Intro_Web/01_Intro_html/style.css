@@ -35,3 +35,9 @@ p {
 #perrrito2 {
     width: 400px;
 }
+
+h3 {
+    display: inline;
+    background-color: white;
+    margin: 20px;
+}
