@@ -1,0 +1,19 @@
+
+
+.padre {
+    height: 400px;
+    border: 2px solid red;
+    /* Se necesita para usar flex box  */
+    display: flex;
+    /* Mover elementos en el eje x o horizontal  */
+    justify-content: center;
+    /* Mover elementos en el eje y o vertical  */
+    align-items: center;
+    flex-direction: column;
+}
+
+.hijo {
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+}
