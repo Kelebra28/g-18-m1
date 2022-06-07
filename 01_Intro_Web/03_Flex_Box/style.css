@@ -6,9 +6,10 @@
     /* Se necesita para usar flex box  */
     display: flex;
     /* Mover elementos en el eje x o horizontal  */
-    justify-content: center;
+    justify-content: space-around;
     /* Mover elementos en el eje y o vertical  */
     align-items: center;
+    /* Me ayuda a acomodar mis elementos en columna */
     flex-direction: column;
 }
 
