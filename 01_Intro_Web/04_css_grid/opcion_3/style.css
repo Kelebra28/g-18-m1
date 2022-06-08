@@ -2,8 +2,12 @@
     border: 3px solid #000;
     height: 100vh;
     display: grid;
-    grid-template-columns: [inicio] 1fr [centro] 1fr [final];
-    grid-template-rows:  [h1] 1fr [h2] 1fr [h3] 1fr [h4];
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "hijo1 hijo2"
+    "hijo1 hijo2"
+    "hijo1 hijo3";
     grid-gap: 20px;
 }
 
@@ -14,15 +18,13 @@
 }
 
 .hijo-1{
-    grid-column:  inicio / final;
-    grid-row: h3 / h4;
+    grid-area: hijo1;
 }
 
-.hijo-3{
-    grid-column: inicio / final;
-    grid-row: h2 / h3;
+.hijo-2{
+    grid-area: hijo2;
+
 }
-.hijo-4{
-    grid-column: inicio / final;
-    grid-row: h1 / h2;
+.hijo-3{
+    grid-area: hijo3;
 }
