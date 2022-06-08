@@ -5,10 +5,19 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    "hijo1 hijo2"
-    "hijo1 hijo2"
+    "hijo2 hijo2"
+    "hijo1 hijo3"
     "hijo1 hijo3";
     grid-gap: 20px;
+    /* justify items: alinea horizontalmente */
+    /* justify-items: end; */
+    /* justify-items: start; */
+    /* justify-items: center; */
+    
+    /* align items: alinea verticalmente */
+    /* align-items: end; */
+    /* align-items: start; */
+    /* align-items: center; */
 }
 
 .hijo{
@@ -18,13 +27,23 @@
 }
 
 .hijo-1{
+    background-color: beige;
     grid-area: hijo1;
+      /* justify self: alinea horizontalmente */
+    /* justify-self: end; */
+    /* justify-self: start; */
+    /* justify-self: center; */
+
+    /* align self: alinea verticalmente */
+    /* align-self: end; */
+    /* align-self: start; */
+    align-self: center;
 }
 
 .hijo-2{
     grid-area: hijo2;
-
 }
+
 .hijo-3{
     grid-area: hijo3;
 }
