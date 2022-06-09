@@ -1,0 +1,43 @@
+.contenedor{
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+}
+
+/* desde 0 hasta 600px */
+/* SOLO MAX-WIDTH */
+/* @media screen and (max-width: 600px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: aqua;
+    }
+} */
+
+/* SOLO MIN-WIDTH */
+/*  600px hasta infinito */
+/* @media screen and (min-width: 600px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: aqua;
+    }
+} */
+
+@media screen and (min-width: 320px) and (max-width: 700px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .caja{
+        background-color: black;
+    }
+}
