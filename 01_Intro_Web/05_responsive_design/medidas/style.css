@@ -1,0 +1,27 @@
+.contenedor-mayor{
+    font-size: 16px;
+    border: 3px solid #000;
+    display: inline-block;
+    height: 50vh;
+    /* 100vh = 100% del alto de la pantalla */
+    /* 100vw = 100% del ancho de la pantalla */
+    width: 100vw;
+}
+.titulo {
+    /* 1em = 3 * 16px = 48px */
+    font-size: 3em;
+}
+.subtitulo{
+    font-size: 2em;
+}
+
+.contenedor{
+    width: 30%;
+    border: 3px solid red;
+    font-size: 60px;
+}
+.parrafo{
+    width: 70%;
+    border: 3px solid aqua;
+    font-size: 1rem;
+}
