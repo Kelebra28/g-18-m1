@@ -1,0 +1,63 @@
+body{
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+
+
+.izquierda_azul{
+    /* border: blue solid 2px; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00205b;
+}
+
+.blaco_superior {
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 45%;
+    background-color: #ffffff;
+}
+
+.blanco_inferior{
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 45%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #ffffff;
+}
+
+.rojo {
+    /* border: 2px solid rebeccapurple; */
+    width: 90%;
+    height: 90%;
+    background-color: #ba0c2f;
+}
+
+.derecha_azul {
+    /* border: 2px solid palevioletred; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #00205b;
+}
+
+.derecha_superior {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.derecha_inferior {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
