@@ -1,0 +1,32 @@
+
+.nav {
+    border: 2px solid rgb(64, 237, 173);
+    background-color:rgb(64, 237, 173) ;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+p {
+    margin-top: 50px;
+}
+.parent{
+    border: 2px solid;
+    width: 500px;
+    height: 300px;
+    /* margin-left: 200px; */
+    background-color: black;
+    position: absolute;
+    left: 100px;
+}
+
+.children {
+    width: 60%;
+    height: 60%;
+    border: solid red 2px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    background-color: red;
+}
