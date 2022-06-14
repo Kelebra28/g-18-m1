@@ -10,30 +10,41 @@
 <body>
     <input type="TEXT">
     <h1>Formularios HTML</h1>
+
+    <!-- INPUT DE TIPO TEXTO-->
     <input type="text" class="textInput">
     <!-- BR es salto de linea-->
+    
     <br>
+
+    <!-- INPUT DE TIPO checkbox-->
     <label>
         ¿Aceptas los terminos y condiciones?
         <input type="checkbox" value="Si">
     </label>
+    
     <br>
-    <form>
-        <label>
-            Seleccionar un color
-            <input type="color">
-        </label>
-        <button type="submit">Boton</button>
-    </form>
+    
+    
+    <!-- INPUT DE TIPO color-->
+    <label>
+        Seleccionar un color
+        <input type="color">
+    </label>
+    
     <br>
+    
+    <!-- INPUT DE TIPO date-->
     <label>
         Seleccionar una fecha de nacimiento
         <input type="date" value="2022-06-13"
         min="1900-06-13"
-        max="2022-06-13"
-        >
+        max="2022-06-13">
     </label>
+    
     <br>
+
+    <!-- INPUT DE TIPO Number-->
     <label>
         Pon un número
         <input type="number"
@@ -41,12 +52,22 @@
             max="10">
     </label>
     <br>
+
+    <!-- Label agrupa el input de tipo password 
+    lo que significa que cuando haga click en 
+    Ingresa tu password es lo mismo que hacer click
+    en el input
+    -->
     <label>
         Ingresa tu password
         <input type="password">
     </label>
+
     <br>
     <hr>
+    <!-- Input de tipo Radio-->
+    <!-- IMPORTANTE LOS NAME TIENEN QUE SER IGUALES
+    PARA LOS INPUT DE TIPO RADIO SE CONECTEN O SE UNAN-->
     <h4>Ingresa tu rango de edad</h4>
     <label>
         0 - 30
@@ -90,7 +111,7 @@
       <option value="Mujer">Mujer</option>
       <option value="Otro">Otro</option>
     </select>
-    
+
     <br>
     <textarea rows="10" cols="33">
     </textarea>
