@@ -8,24 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Importa el orden de etiquetas -->
-        <!-- ESTO ES INCORRECTO EN XHTML-->
-    <p>
-        Parrafo
-        <a href="www.google.com">
-            Google
-        </a>
-    </p>
-    <!--TODAS LAS ETIQUETAS SE TIENE QUE CERRAR -->
-        <!-- ESTO ES INCORRECTO EN XHTML-->
-        <hr>
-        <!-- ESTO ES CORRECTO EN XHTML-->
-        <hr></hr>
-    
-    <!-- EN XTML NO FUNCIONARIA -->
-    <!-- EN XTML NO FUNCIONARIA DADO QUE ES SENSIBLE 
-    MAYUSCULAS Y MINUSCULAS
-    -->
     <input type="TEXT">
     <h1>Formularios HTML</h1>
     <input type="text" class="textInput">
@@ -36,10 +18,13 @@
         <input type="checkbox" value="Si">
     </label>
     <br>
-    <label>
-        Seleccionar un color
-        <input type="color">
-    </label>
+    <form>
+        <label>
+            Seleccionar un color
+            <input type="color">
+        </label>
+        <button type="submit">Boton</button>
+    </form>
     <br>
     <label>
         Seleccionar una fecha de nacimiento
@@ -98,12 +83,14 @@
         <input type="search">
     </label>
     <br>
+
     <label for="sex">Genero</label>
     <select name="sex" id="sex">
       <option value="Hombre">Hombre</option>
       <option value="Mujer">Mujer</option>
       <option value="Otro">Otro</option>
     </select>
+    
     <br>
     <textarea rows="10" cols="33">
     </textarea>
