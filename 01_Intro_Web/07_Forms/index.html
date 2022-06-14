@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Importa el orden de etiquetas -->
+        <!-- ESTO ES INCORRECTO EN XHTML-->
+    <p>
+        Parrafo
+        <a href="www.google.com">
+            Google
+        </a>
+    </p>
+    <!--TODAS LAS ETIQUETAS SE TIENE QUE CERRAR -->
+        <!-- ESTO ES INCORRECTO EN XHTML-->
+        <hr>
+        <!-- ESTO ES CORRECTO EN XHTML-->
+        <hr></hr>
+    
+    <!-- EN XTML NO FUNCIONARIA -->
+    <!-- EN XTML NO FUNCIONARIA DADO QUE ES SENSIBLE 
+    MAYUSCULAS Y MINUSCULAS
+    -->
+    <input type="TEXT">
+    <h1>Formularios HTML</h1>
+    <input type="text" class="textInput">
+    <!-- BR es salto de linea-->
+    <br>
+    <label>
+        ¿Aceptas los terminos y condiciones?
+        <input type="checkbox" value="Si">
+    </label>
+    <br>
+    <label>
+        Seleccionar un color
+        <input type="color">
+    </label>
+    <br>
+    <label>
+        Seleccionar una fecha de nacimiento
+        <input type="date" value="2022-06-13"
+        min="1900-06-13"
+        max="2022-06-13"
+        >
+    </label>
+    <br>
+    <label>
+        Pon un número
+        <input type="number"
+            min="0"
+            max="10">
+    </label>
+    <br>
+    <label>
+        Ingresa tu password
+        <input type="password">
+    </label>
+    <br>
+    <hr>
+    <h4>Ingresa tu rango de edad</h4>
+    <label>
+        0 - 30
+        <input name="age" type="radio" value="30">
+    </label>
+    <br>
+    <label>
+        31 - 40
+        <input name="age" type="radio" value="40">
+    </label>
+    <br>
+    <label>
+        41 - 50
+        <input name="age" type="radio" value="50">
+    </label>
+    <br>
+
+    <input type="range" list="porcentaje">
+    <datalist id="porcentaje">
+        <option value="0" label="0%">
+        <option value="10" >
+        <option value="20">
+        <option value="100" label="100%">
+    </datalist>
+
+    <br>
+    <label>
+        Selecciona una imagen
+        <input type="file">
+    </label>
+
+    <label>
+        Busca un elemento
+        <input type="search">
+    </label>
+    <br>
+    <label for="sex">Genero</label>
+    <select name="sex" id="sex">
+      <option value="Hombre">Hombre</option>
+      <option value="Mujer">Mujer</option>
+      <option value="Otro">Otro</option>
+    </select>
+    <br>
+    <textarea rows="10" cols="33">
+    </textarea>
+
+</body>
+</html>
